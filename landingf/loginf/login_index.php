@@ -2,7 +2,7 @@
 include('login.php'); //로그인 스크립트 호출
 
 if(isset($_SESSION['login_user'])){
-header("location: profile.php");
+header("location: execute.php");
 }
 ?>
 <!DOCTYPE html>

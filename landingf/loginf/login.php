@@ -24,7 +24,7 @@ $query = mysql_query("select * from login where password='$password' AND usernam
 $rows = mysql_num_rows($query);
 if ($rows == 1) {
 $_SESSION['login_user']=$username; //세션 초기화
-header("location: profile.php");
+header("location: execute.php");
 }
 mysql_close($connection); //커넥션 종료
 }
