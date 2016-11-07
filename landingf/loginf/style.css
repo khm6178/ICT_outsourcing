@@ -1,0 +1,112 @@
+
+body {
+  font-family: "Noto sans KR","Apple SD Gothic Neo", "Nanum Barun Gothic", "malgun Gothic", "돋움", Dotum, sans-serif;
+  letter-spacing: -1px;
+}
+div {
+  display: block;
+}
+span {
+color: red;
+font-size: 13px;
+}
+.login{
+  margin:25% auto;
+  height:100%;
+  position: relative;
+  background: #f5f5f5;
+}
+.main {
+width:960px;
+margin:50px auto;
+}
+hr {
+border:0;
+border-bottom:1px solid #ccc;
+margin:10px -40px;
+margin-bottom:30px
+}
+form {
+  display: block;
+  margin-top: 0em;
+}
+.login .box{
+width:300px;
+margin:0 auto;
+padding:80px 90px 30px;
+background:#fff;
+border-radius:2px;
+box-shadow: 0 2px 5px 0 rgba(0,0,0,.16);
+}
+.login .box input {
+padding: 6px 10px 6px 10px;
+border-bottom:1px solid #e1e1e1
+}
+input[type=text], input[type=password] {
+display:block;
+box-sizing:border-box;
+position:relative;
+width:100%;
+padding:6px 0;
+background: inherit;
+border:0;
+font-size: 18px;
+letter-spacing:normal;
+}
+input[type=password] {
+  margin-top: 40px;
+}
+.login .box .btn__login {
+display: block;
+width: 100%;
+margin-top:60px;
+padding: 16px 0;
+font-weight: 500;
+font-size: 20px;
+border: 1px solid #7b7b7b;
+color: #434444;
+border-radius: 2px;
+background-color: #fff;
+box-shadow: 0 2px 5px 0 rgba(0,0,0,.16);
+cursor: pointer;
+}
+:focus, input, button {
+  outline:0;
+}
+input {
+  line-height: normal;
+}
+.login .box .info{
+  margin:30px 0 0;
+  color: #acacac;
+  font-size: 13px;
+  text-align: center;
+}
+.login .box .info a{
+  margin: 0 4px;
+  color: #7b7b7b;
+}
+#profile {
+padding:50px;
+border:1px dashed grey;
+font-size:20px;
+background-color:#DCE6F7
+}
+#logout {
+float:right;
+padding:5px;
+border:dashed 1px gray
+}
+p {
+  padding: 0;
+  font-weight: 400;
+  display: block;
+}
+a {
+background-color:transparent;
+color:inherit;
+text-decoration:none;
+}
+i {
+color:#6495ed
+}

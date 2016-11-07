@@ -1,0 +1,509 @@
+html{
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body{
+  margin: 0;
+  font-family: "Noto Sans Korean", "Apple SD Gothic Neo", "Nanum Barun Gothic", "Malgun Gothic", "돋움", Dotum, Sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: -1px;
+}
+.content__footer:before, .detail__box section.reserve:after, .detail__box section.reserve:before, .detail__button.back:before, .detail__calculations .desc.restriction .desc__title:before, .detail__calculations .desc__title:before, .detail__issue>a[role=button].issue--online:before, .detail__issue>a[role=button].issue--phone:before, .detail__issue>input[type=checkbox]:checked~label:before,
+.detail__issue>label.close:before, .detail__issue>label:before, .detail__summary>li.graphic--cost:before, .detail__summary>li.graphic--restriction:before, .detail__summary>li.graphic--selectable:before, .detail__summary>li.graphic--time:before, .explore__banks:before, .explore__benefits input[type=checkbox]:checked~label.beauty:before, .explore__benefits input[type=checkbox]:checked~label.book:before,
+.explore__benefits input[type=checkbox]:checked~label.cafe:before, .explore__benefits input[type=checkbox]:checked~label.car:before, .explore__benefits input[type=checkbox]:checked~label.edu:before, .explore__benefits input[type=checkbox]:checked~label.finance:before, .explore__benefits input[type=checkbox]:checked~label.life:before,
+.explore__benefits input[type=checkbox]:checked~label.meal:before, .explore__benefits input[type=checkbox]:checked~label.movie:before, .explore__benefits input[type=checkbox]:checked~label.shopping:before, .explore__benefits input[type=checkbox]:checked~label.sport:before, .explore__benefits input[type=checkbox]:checked~label.store:before,
+.explore__benefits input[type=checkbox]:checked~label.traffic:before, .explore__benefits input[type=checkbox]:checked~label.travel:before, .explore__benefits label.beauty:before, .explore__benefits label.book:before, .explore__benefits label.cafe:before, .explore__benefits label.car:before, .explore__benefits label.edu:before, .explore__benefits label.finance:before, .explore__benefits label.life:before,
+.explore__benefits label.meal:before, .explore__benefits label.movie:before, .explore__benefits label.shopping:before, .explore__benefits label.sport:before, .explore__benefits label.store:before, .explore__benefits label.traffic:before, .explore__benefits label.travel:before, .explore__empty:before, .explore__filter .filter__checkboxes input[type=radio]:checked~label:before,
+.explore__filter .filter__checkboxes input[type=radio]~label:before, .explore__filter .filter__checkboxes input[type=checkbox]:checked~label:before, .explore__filter .filter__checkboxes input[type=checkbox]~label:before, .footer--service--icons .icon--app:before, .footer--service--icons .icon--blog:before, .footer--service--icons .icon--facebook:before, .footer--service--icons .icon--rainist:before, .form__asset .company:before,
+.form__asset .record .questions .question.active:before, .form__asset .record .title+label:after, .form__asset .record>.title+label:after, .form__asset.extra-survey:after, .form__check.list input[type=checkbox]+label:before, .form__check.list input[type=checkbox]:checked+label:before, .form__folder .substance .empty:before, .form__folder>label:after,
+.form__input.search:after, .form__mailing .mailing__confirmed:before, .form__mailing .mailing__input.done:after, .form__mailing .mailing__input:after, .form__mailing .notice li.done:before, .form__mailing .notice li.error:before, .form__mailing .notice li:before, .form__mailing .notice.error:before, .form__popup .section.empty:before, .form__popup .section.info:before,
+.form__radio.list input[type=radio]+label:before, .form__radio.list input[type=radio]:checked+label:before, .form__star .stars>li>a[role=button], .form__star .stars>li>a[role=button].active, .form__store.empty:before, .form__tag .tag a, .form__tip:before, .header.transparent .header__logo:before, .header__logo:before,
+.landing__info>li.info--condition:before, .landing__info>li.info--data:before, .landing__info>li.info--pure:before, .landing__info>li.info--update:before, .landing__logo:before, .landing__section__carousel__link:after, .landing__section__footer__button:after, .modal .login__input.done:after, .modal .login__input:after, .modal .login__options input[type=checkbox]:checked+label:before, .modal .login__options label:before,
+.modal .notice li.done:before, .modal .notice li.error:before, .modal .notice li:before, .modal .notice.error:before, .popup__result--no-data:before, .ranking__section__cards__item__content__info:before, .ranking__section__cover:before, .result__benefits .benefit-group>li>input[type=checkbox]:checked~label.active.bank:before,
+.result__benefits .benefit-group>li>input[type=checkbox]:checked~label.active.car:before, .result__benefits .benefit-group>li>input[type=checkbox]:checked~label.active.culture:before, .result__benefits .benefit-group>li>input[type=checkbox]:checked~label.active.etc:before, .result__benefits .benefit-group>li>input[type=checkbox]:checked~label.active.food:before,
+.result__benefits .benefit-group>li>input[type=checkbox]:checked~label.active.golf:before, .result__benefits .benefit-group>li>input[type=checkbox]:checked~label.active.hotel:before, .result__benefits .benefit-group>li>input[type=checkbox]:checked~label.active.interest:before, .result__benefits .benefit-group>li>input[type=checkbox]:checked~label.active.plain:before,
+.result__benefits .benefit-group>li>input[type=checkbox]:checked~label.active.voucher:before, .result__benefits .benefit-group>li>label.active.bank:before, .result__benefits .benefit-group>li>label.active.car:before, .result__benefits .benefit-group>li>label.active.culture:before, .result__benefits .benefit-group>li>label.active.etc:before,
+.result__benefits .benefit-group>li>label.active.food:before, .result__benefits .benefit-group>li>label.active.golf:before, .result__benefits .benefit-group>li>label.active.hotel:before, .result__benefits .benefit-group>li>label.active.interest:before, .result__benefits .benefit-group>li>label.active.plain:before, .result__benefits .benefit-group>li>label.active.voucher:before,
+.result__benefits .benefit-group>li>label.bank:before, .result__benefits .benefit-group>li>label.car:before, .result__benefits .benefit-group>li>label.culture:before, .result__benefits .benefit-group>li>label.etc:before, .result__benefits .benefit-group>li>label.food:before, .result__benefits .benefit-group>li>label.golf:before, .result__benefits .benefit-group>li>label.hotel:before,
+.result__benefits .benefit-group>li>label.interest:before, .result__benefits .benefit-group>li>label.plain:before, .result__benefits .benefit-group>li>label.voucher:before, .result__benefits .benefit-items>li>input[type=checkbox]:checked~label:before, .result__benefits .benefit-items>li>label:before, .result__box .checklist input[type=radio]:checked~label:before,
+.result__box .checklist input[type=radio]~label:before, .result__box .checklist input[type=checkbox]:checked~label:before, .result__box .checklist input[type=checkbox]~label:before, .result__cards>li:nth-child(-n+3) .card__plate:after, .result__compare .clear:before, .result__empty:before, .result__filter .filter__expand:after,
+.result__section.card--filter>input[type=checkbox]:checked~label:before, .result__section.card--filter>label:before, .review__list.empty:before, .review__stars .star, .review__stars .star.active, .review__summary ul.points>li .star:after, .review__summary ul.satisfaction>li .star, .review__summary ul.satisfaction>li .star.active,
+.special .content .banner__content.product .banner__timer:before, .special .content .card .header__timer.orange:before, .special .content .card .header__timer:before, .special .content__footer .footer__button:after, .special .content__footer .footer__thumbnail, .special .content__loaded:before, .special__popup:before, .survey__inputs li .remove:before, .survey__inputs.empty:before,
+.themes .content__body__link:before, .themes .content__card__product__footer__description:before, .themes .content__main__card__body__link:after, .toast__container:before, .toast__link:after {
+  display: inline-block;
+  background: url(img/sp_sprite.png) no-repeat;
+  line-height: 999px;
+  overflow: hidden;
+  content: '';
+}
+#wrap{
+  min-width: 360px;
+}
+.explore{
+  background: #f5f5f5;
+}
+ul, ol{
+  list-style: none;
+}
+h1, h2, h3, h4, h5, h6, ol, p, ul{
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+}
+a{
+  background-color: transparent;
+  color: inherit;
+  text-decoration: none;
+}
+.header{
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 40;
+  width: 100%;
+  height: 64px;
+  padding: 0 16px;
+  background: #fff;
+  transition: all .5s ease;
+}
+.header__logo{
+  cursor: pointer;
+  float: left;
+  position: relative;
+  width: 120px;
+  height: 100%;
+  color: transparent;
+  font-size: 0;
+  line-height: 100%;
+}
+.header__logo:before{
+  background-position: -424px -504px !important;
+  width: 120px;
+  height: 18px;
+  position: absolute;
+  top: calc(50% - 9px);
+  left: 0;
+  right: auto;
+  bottom: auto;
+}
+.header__container, .welcome{
+  box-sizing: border-box;
+}
+.header__container{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+.welcome{
+  display: block;
+  float: left;
+  width: calc(100% - 125px);
+  padding: 0 0 0 96px;
+}
+.profile{
+  display: block;
+  float: right;
+  padding: 16px 0;
+}
+.header__user, .logout{
+  display: inline-block;
+  font-weight: 400;
+  line-height: 28px;
+  font-size: 14px;
+}
+.header__user{
+  color: #7b7b7b;
+}
+.header__user span{
+  font-weight: 700;
+  color: #36cc7c;
+}
+.logout{
+  font-weight: 500;
+  color: #acacac;
+  background: #fff;
+  border: 2px solid #fff;
+  border-radius: 2px;
+  margin: 0 0 0 12px;
+  cursor: pointer;
+}
+.explore>.board__wrap{
+  border-bottom: 2px solid rgba(11,12,12,.04);
+}
+.board__wrap{
+  overflow: hidden;
+  margin-top: 64px;
+}
+.explore__filter{
+  position: fixed;
+  left: 0;
+  top: 64px;
+  z-index: 30;
+  width: 100%;
+  background: #3f7d8c;
+  background: linear-gradient(to right, #3f7d8c 0, #2a4f5b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f7d8c', endColorstr='#2a4f5b', GradientType=1 );
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.12);
+}
+.explore__filter:after{
+  display: table;
+  clear: both;
+  content: ' ';
+}
+.explore__filter input[type=checkbox]:checked~.explore__container{
+  display: block;
+}
+.explore__filter input[type=checkbox]{
+  display: none;
+}
+.explore__filter>.explore__container{
+  display: none;
+  margin: 0 auto;
+  padding: 32px 0 24px;
+}
+.explore__filter>.explore__container:after{
+  display: table;
+  clear: both;
+  content: ' ';
+}
+.explore__container{
+  position: relative;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 48px 0 0;
+  box-sizing: border-box;
+}
+.explore__filter section.half{
+  float: left;
+  display: block;
+  width: 50%;
+}
+.explore__filter .filter__name{
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+}
+.explore__filter .filter__checkboxes{
+  padding: 24px 0 0;
+}
+.explore__filter .filter__checkboxes>li{
+  display: inline-block;
+  width: 50%;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 34px;
+  float: left;
+}
+.explore__filter .filter__checkboxes input[type=radio],
+.explore__filter .filter__checkboxes input[type=checkbox]{
+  display: none;
+}
+.explore__banks, .explore__filter .filter__checkboxes input[type=radio]:checked~label,
+.explore__filter .filter__checkboxes input[type=checkbox]:checked~label{
+  font-weight: 700;
+}
+.explore__filter .filter__checkboxes input[type=checkbox]~label {
+  position: relative;
+  display: block;
+  padding: 0 0 0 26px;
+  box-sizing: border-box;
+}
+.explore__filter .filter__toggle{
+  cursor: pointer;
+  display: block;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 56px;
+}
+.explore__filter .filter__toggle:after{
+  content: ' ';
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin: 0 0 0 12px;
+  border-top: 2px solid rgba(255,255,255,.54);
+  border-right: 2px solid rgba(255,255,255,.54);
+  -ms-transform: rotate(135deg);
+  transform: rotate(135deg);
+  -ms-transform-origin: 50% 25%;
+  transform-origin: 50% 25%;
+}
+.explore__filter input[type=checkbox]:checked~.filter__toggle{
+  border-top: 2px solid rgba(255,255,255,.12);
+}
+.explore__filter input[type=checkbox]:checked~.filter__toggle:after{
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.explore__filter .filter__checkboxes input[type=checkbox]:checked~label:before {
+    background-position: -777px -877px;
+    width: 20px;
+    height: 20px;
+}
+.explore__filter .filter__checkboxes input[type=checkbox]~label:before {
+    background-position: -902px -877px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 8px;
+    left: 0;
+    right: auto;
+    bottom: auto;
+}
+.board__cover{
+  height: 380px;
+  padding: 64px 0 172px;
+  box-sizing: border-box;
+  background: #30cfaf;
+  background: linear-gradient(to right, #30cfaf 0, #12ab9d 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#30cfaf', endColorstr='#12ab9d', GradientType=1 );
+}
+.board__container{
+  max-width: 1500px;
+  margin: 0 auto;
+}
+.board__content.wrap{
+  margin: -108px 0 0;
+}
+.board__box, .board__button{
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.12);
+}
+.board__box{
+  display: block;
+}
+.hide{
+  display: none;
+}
+button, input, optgroup, select, textarea{
+  color: inherit;
+  font: inherit;
+  margin: 0;
+  padding: 0;
+  letter-spacing: -1px;
+}
+button, html input[type=button], input[type=checkbox], input[type=radio], input[type=reset], input[type=submit]{
+  cursor: pointer;
+}
+input[type=checkbox], input[type=radio]{
+  box-sizing: border-box;
+  padding: 0;
+}
+.board__tab{
+  display: none;
+}
+input{
+  line-height: normal;
+}
+:focus, button, input{
+  outline: 0;
+}
+.board__tab:nth-of-type(1):checked ~ .board__tab--head:nth-of-type(1),
+.board__tab:nth-of-type(2):checked ~ .board__tab--head:nth-of-type(2){
+  color: #14b98f;
+  font-weight: 700;
+  border-bottom: 2px solid #46d1a2;
+}
+.board__tab--head.level--2{
+  width: 50%;
+}
+.board__tab--head{
+  cursor: pointer;
+  display: inline-block;
+  width: 33.33%;
+  color: rgb(123, 123, 123);
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 62px;
+  border-bottom: 2px solid rgba(11,12,12,.04);
+}
+.board__tab:nth-of-type(1):checked~.board__tab--content:nth-of-type(1),
+.board__tab:nth-of-type(2):checked~.board__tab--content:nth-of-type(2){
+  display: block;
+}
+.board__tab--content{
+  display: none;
+}
+.information__section{
+  display: block;
+  padding: 32px;
+  box-sizing: border-box;
+}
+table.form__table{
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  color: #434444;
+  font-weight: 300;
+  text-align: center;
+}
+tbody{
+  display: block;
+  max-height: 350px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,.20);
+}
+thead, tbody tr{
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+.form__table td, .form__table th{
+  padding: 5px 0;
+}
+.form__table td{
+  border: 1px solid #cfcfcf;
+  font-size: 14px;
+}
+.form__table th{
+  font-weight: 600;
+  background: #fbfbfb;
+  font-size: 16px;
+}
+thead{
+  box-shadow: 0 2px 5px rgba(0,0,0,.20);
+  width: calc(100% - 1em);
+}
+td.CardName{
+  white-space: nowrap;
+  text-overflow:ellipsis;
+  overflow:hidden;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+     /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background: rgb(255, 255, 255); /* Fallback color */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  position: fixed;
+  left: calc(50% - 220px);
+  top: calc(50% - 200px);
+  z-index: 43;
+  width: 430px;
+  height: 350px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 17px 50px 0 rgba(0,0,0,.19);
+}
+
+.modal-button {
+  display: block;
+  float: left;
+  width: 50%;
+  color: silver;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 48px;
+  cursor: pointer;
+  border: none;
+  background: #fff
+}
+.modal-button.submit{
+  color: #36cc7c;
+}
+
+.modal-title {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  display: block;
+  width: 100%;
+  padding: 0 24px;
+  color: #434444;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 48px;
+  border-bottom: 1px solid #e1e1e1;
+  box-sizing: border-box;
+  background: #fff;
+}
+
+.modal-body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 48px 24px;
+  box-sizing: border-box;
+}
+
+.modal-footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  padding: 0;
+  background: #fff;
+  border-top: 1px solid #e1e1e1;
+}
+.modal__button, .report__button, .dwld__button{
+  text-align: center;
+  margin-top: 30px;
+}
+.modal__button button, .report__button button, .dwld__button button{
+  text-align: center;
+  border: none;
+  width: 300px;
+  height: 60px;
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+  background: #36cc7c;
+  line-height: 22px;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(0,0,0,.20);
+}
+.report__button button{
+  background: #f08760;
+}
+.report__button, .dwld__button{
+  width: 50%;
+  display: inline-block;
+}
+.modal__button button:disabled{
+  background: #acacac;
+  cursor: default;
+}
+.modal-total h3{
+  padding: 16px;
+  color: #325863;
+  font-size: 20px;
+  font-weight: 700;
+}
+.modal-span{
+  padding: 0 16px;
+  display: block;
+  text-align: center;
+  box-sizing: border-box;
+}
+.modal-total span{
+  line-height: 24px;
+  color: #f08760;
+  font-size: 28px;
+  font-weight: 700;
+  width: 100%;
+}
